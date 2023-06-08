@@ -1,2 +1,2 @@
-sudo chow
-n
+#!/bin/bash
+sudo chown
