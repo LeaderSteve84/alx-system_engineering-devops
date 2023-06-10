@@ -1,0 +1,2 @@
+#!/bin/bash
+fine . -type d -not -name '.' | wc -l
