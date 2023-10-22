@@ -2,6 +2,13 @@ Command line for the win
 Bash
 Scripting
 
+STEPS USED TO TRANSFER MY SCREENSHOTS TO THE SANDBOX
+1. Connect to sandbox using the sftp, just as usually done with ssh.
+2. change <cd> to remote directory using cd command.
+3. using lcd, lls and the lpwd commands to navigates to the local
+directory at the location of the screenshots.
+4. using the put command to uploads the screenshots to the remote folder.
+
 Tasks
 0. First 九 tasks
 #advanced
