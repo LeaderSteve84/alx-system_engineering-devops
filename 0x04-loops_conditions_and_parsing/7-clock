@@ -2,18 +2,19 @@
 # This script is displaying "Best School" 10 times
 
 minute=0
-hour=0
+hour=1
 while [ $minute -le 60 ]; do
 	if [ $minute -eq 0 ]; then
-		echo "Hour: $hour"
+		echo "Hour: $minute"
 	elif [ $minute -eq 60 ]; then
-		for (( hour=1; hour<=12; hour++)); do
+		while [ $hour -le 12 ]; do
 			if [ $hour -eq 1 ]; then
 				echo "Hour: $hour"
 				echo $hour
 			else
 				echo $hour
 			fi
+			((hour++))
 		done
 	else
 		echo $minute
