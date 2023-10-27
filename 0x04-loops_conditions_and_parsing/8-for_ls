@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# a Bash script that displays
+#+ The content of the current directory
+
+for item in *; do
+	if [ -f "$item" ] && [ ! -h "$item" ]; then
+		modified_name=$(echo "$item" | cut -d '-' -f 2-)
+		echo "$modified_name"
+	fi
+done
