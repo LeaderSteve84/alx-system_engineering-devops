@@ -2,7 +2,7 @@
 # A script that manage_my_process.
 
 if [ "${1}" == "start" ]; then
-	./manage_my_process
+	./manage_my_process &
 	touch /var/run/my_process.pid
 	echo "$!" > /var/run/my_process.pid
 	echo "manage_my_process started"
