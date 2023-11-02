@@ -4,7 +4,7 @@
 # localhost resolves to 127.0.0.2
 # facebook.com resolves to 8.8.8.8
 # the checker is running on Docker, 
-# so make sure to read this
+#+ so make sure to read this
 
 cp /etc/hosts -/hosts.new
 echo "127.0.0.2      localhost" > -/hosts.new
