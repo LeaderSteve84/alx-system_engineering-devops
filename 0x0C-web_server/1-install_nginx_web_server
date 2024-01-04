@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# install nginx
+apt-get update
+apt-get install -y nginx
+
+# create a basic HTML page
+echo "Hello World!" > /usr/share/nginx/html/index.html
+
+# make sure nginx is listenong on port 80
+sed -i 's/listen 80 default server;/listen 80;/' /etc/nginx/sites-available/default
+
+# restart nginx
+service nginx restart
+
+# test the setup using curl
+curl -s http://localhost | grep "Hello World!" > /dev/null 2>&1
+
+# check the result
+if [ $? -eq 0 ]; then
+    echo "Hello World! Page successfully served by nginx."
+else
+    echo "Error: Something went wrong."
+fi
