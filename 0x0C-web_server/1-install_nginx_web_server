@@ -2,8 +2,7 @@
 # install nginx
 
 echo -e "Updating and installing Nginx.\n"
-sudo apt-get update -y -qq && \
-	sudo apt-get install nginx -y
+sudo apt-get update -y -qq && sudo apt-get install nginx -y
 
 echo -e "\nSetting up the Hello World! page.\n"
 
