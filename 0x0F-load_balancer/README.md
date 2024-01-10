@@ -9,7 +9,7 @@ By: Sylvain Kalache, co-founder at Holberton School
 ## Concepts
     For this project, we expect you to look at these concepts:
 
-### Load balancer
+### <li><a href="https://intranet.alxswe.com/concepts/46">Load balancer</a></li>
 ### Web stack debugging
 
 
