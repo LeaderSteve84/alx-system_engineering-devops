@@ -1,21 +1,16 @@
-0x0F. Load balancer
-DevOps
-SysAdmin
- By: Sylvain Kalache, co-founder at Holberton School
+# 0x0F. Load balancer
+### DevOps SysAdmin
+ 
+By: Sylvain Kalache, co-founder at Holberton School
   Weight: 1
    Project over - took place from Jan 8, 2024 6:00 AM to Jan 9, 2024 6:00 AM
     An auto review will be launched at the deadline
-    In a nutshell…
-    Auto QA review: 0.0/4 mandatory & 0.0/2 optional
-    Altogether:  0.0%
-    Mandatory: 0.0%
-    Optional: 0.0%
-    Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
-    Concepts
+    
+## Concepts
     For this project, we expect you to look at these concepts:
 
-    Load balancer
-    Web stack debugging
+### Load balancer
+### Web stack debugging
 
 
     Background Context
@@ -48,10 +43,12 @@ SysAdmin
     430728-web-01       ubuntu  54.167.187.121  running 
     430728-web-02       ubuntu  100.25.3.235    running 
     430728-lb-01        ubuntu  34.239.254.156  running 
-    Tasks
-    0. Double the number of webservers
-    mandatory
-    Score: 0.0% (Checks completed: 0.0%)
+   
+# Tasks
+
+## 0. Double the number of webservers
+### mandatory
+
     In this first task you need to configure web-02 to be identical to web-01. Fortunately, you built a Bash script during your web server project, and they’ll now come in handy to easily configure web-02. Remember, always try to automate your work!
 
     Since we’re placing our web servers behind a load balancer for this project, we want to add a custom Nginx response header. The goal here is to be able to track which web server is answering our HTTP requests, to understand and track the way a load balancer works. More in the coming tasks.
@@ -78,11 +75,8 @@ SysAdmin
         Directory: 0x0F-load_balancer
         File: 0-custom_http_response_header
              
-        1. Install your load balancer
-        mandatory
-        Score: 0.0% (Checks completed: 0.0%)
-        Install and configure HAproxy on your lb-01 server.
-
+## 1. Install your load balancer
+###    mandatory
         Requirements:
 
         Configure HAproxy so that it send traffic to web-01 and web-02
@@ -123,9 +117,8 @@ SysAdmin
         Directory: 0x0F-load_balancer
         File: 1-install_load_balancer
              
-        2. Add a custom HTTP header with Puppet
-#advanced
-        Score: 0.0% (Checks completed: 0.0%)
+# 2. Add a custom HTTP header with Puppet
+### advanced
         Just as in task #0, we’d like you to automate the task of creating a custom HTTP header response, but with Puppet.
 
         The name of the custom HTTP header must be X-Served-By
