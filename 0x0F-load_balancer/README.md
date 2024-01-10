@@ -15,7 +15,7 @@ By: Sylvain Kalache, co-founder at Holberton School
  <li><a href="https://community.f5.com/t5/technical-articles/intro-to-load-balancing-for-developers-the-algorithms/ta-p/273759">Load Balancing Algorithm</a></li>
  <li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts">Intro to Load Balancing and HAProxy</a></li>
  <li><a href="https://www.techopedia.com/definition/27178/http-header">HTTP Header</a></li>
- <li><a href="https://haproxy.debian.net/"></a>Debian/Ubuntu HAProxy Packages</li>
+ <li><a href="https://haproxy.debian.net/">Debian/Ubuntu HAProxy Packages</a></li>
 
     Background Context
     You have been given 2 additional servers:
