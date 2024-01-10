@@ -10,7 +10,9 @@ By: Sylvain Kalache, co-founder at Holberton School
     For this project, we expect you to look at these concepts:
 
 ### <li><a href="https://intranet.alxswe.com/concepts/46">Load balancer</a></li>
-### Web stack debugging
+### <li><a href="https://intranet.alxswe.com/concepts/68">Web stack debugging</a></li>
+### <li><a href="https://www.thegeekstuff.com/2016/01/load-balancer-intro/">Load Balancer-Intro</a></li>
+### <li><a href="https://community.f5.com/t5/technical-articles/intro-to-load-balancing-for-developers-the-algorithms/ta-p/273759">Load Balancing Algorithm</a></li>
 
 
     Background Context
