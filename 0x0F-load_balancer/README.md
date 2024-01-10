@@ -66,7 +66,7 @@ By: Sylvain Kalache, co-founder at Holberton School
         Ignore SC2154 for shellcheck
         Example:
 
-        sylvain@ubuntu$ curl -sI 34.198.248.145 | grep X-Served-By
+        <p>vain@ubuntu$ curl -sI 34.198.248.145 | grep X-Served-By
         X-Served-By: 03-web-01
         sylvain@ubuntu$ curl -sI 54.89.38.100 | grep X-Served-By
         X-Served-By: 03-web-02
@@ -78,6 +78,7 @@ By: Sylvain Kalache, co-founder at Holberton School
         GitHub repository: alx-system_engineering-devops
         Directory: 0x0F-load_balancer
         File: 0-custom_http_response_header
+        </p>
              
 ## 1. Install your load balancer
 ###    mandatory
