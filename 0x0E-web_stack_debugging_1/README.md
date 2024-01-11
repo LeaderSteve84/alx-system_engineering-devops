@@ -1,9 +1,7 @@
-0x0E. Web stack debugging #1
-DevOps
-SysAdmin
-Scripting
-Debugging
- By: Sylvain Kalache
+# 0x0E. Web stack debugging #1
+## DevOps SysAdmin Scripting Debugging
+
+By: Sylvain Kalache
   Weight: 1
    Project will start Jan 8, 2024 6:00 AM, must end by Jan 12, 2024 6:00 AM
     Checker was released at Jan 10, 2024 8:24 PM
@@ -15,8 +13,8 @@ Debugging
      Web stack debugging
 
 
-     Requirements
-     General
+##  Requirements
+### General
      Allowed editors: vi, vim, emacs
      All your files will be interpreted on Ubuntu 20.04 LTS
      All your files should end with a new line
@@ -27,15 +25,17 @@ Debugging
      The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
      The second line of all your Bash scripts should be a comment explaining what is the script doing
      You are not allowed to use wget
-     Tasks
-     0. Nginx likes port 80
-     mandatory
+   
+# Tasks
+##   0. Nginx likes port 80
+###  mandatory
      Using your debugging skills, find out what’s keeping your Ubuntu container’s Nginx installation from listening on port 80. Feel free to install whatever tool you need, start and destroy as many containers as you need to debug the issue. Then, write a Bash script with the minimum number of commands to automate your fix.
 
      Requirements:
 
      Nginx must be running, and listening on port 80 of all the server’s active IPv4 IPs
      Write a Bash script that configures a server to the above requirements
+     
      root@966c5664b21f:/# curl 0:80
      curl: (7) Failed to connect to 0 port 80: Connection refused
      root@966c5664b21f:/#
@@ -48,10 +48,10 @@ Debugging
      <title>Welcome to nginx!</title>
      <style>
          body {
-                         width: 35em;
-                                        margin: 0 auto;
-                                                        font-family: Tahoma, Verdana, Arial, sans-serif;
-                                                            }
+               width: 35em;
+               margin: 0 auto;
+               font-family: Tahoma, Verdana, Arial, sans-serif;
+              }
 </style>
 </head>
 <body>
@@ -68,14 +68,17 @@ Commercial support is available at
 </body>
 </html>
 root@966c5664b21f:/#
-Repo:
+
+
+### Repo:
 
 GitHub repository: alx-system_engineering-devops
 Directory: 0x0E-web_stack_debugging_1
 File: 0-nginx_likes_port_80
    
-1. Make it sweet and short
-#advanced
+##1. Make it sweet and short
+### advanced
+
 Using what you did for task #0, make your fix short and sweet.
 
 Requirements:
@@ -88,6 +91,7 @@ You cannot use &&
 You cannot use wget
 You cannot execute your previous answer file (Do not include the name of the previous script in this one)
         service (init) must say that nginx is not running ← for real
+        
         root@966c5664b21f:/# curl 0:80
         curl: (7) Failed to connect to 0 port 80: Connection refused
         root@966c5664b21f:/#
@@ -101,10 +105,10 @@ You cannot execute your previous answer file (Do not include the name of the pre
         <title>Welcome to nginx!</title>
         <style>
             body {
-                            width: 35em;
-                                           margin: 0 auto;
-                                                           font-family: Tahoma, Verdana, Arial, sans-serif;
-                                                               }
+                 width: 35em;
+                 margin: 0 auto;
+                 font-family: Tahoma, Verdana, Arial, sans-serif;
+                 }
 </style>
 </head>
 <body>
@@ -124,7 +128,8 @@ root@966c5664b21f:/#
 root@966c5664b21f:/# service nginx status
  * nginx is not running
  root@966c5664b21f:/# 
- Repo:
+
+### Repo:
 
  GitHub repository: alx-system_engineering-devops
  Directory: 0x0E-web_stack_debugging_1
