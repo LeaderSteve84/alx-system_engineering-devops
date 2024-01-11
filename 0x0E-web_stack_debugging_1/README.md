@@ -9,8 +9,9 @@ By: Sylvain Kalache
      Concepts
      For this project, we expect you to look at these concepts:
 
-     Network basics
-     Web stack debugging
+##   Network basics
+     <li><a href="https://www.techtarget.com/searchnetworking/definition/protocol">what is a protocol</a></li>
+##   Web stack debugging
 
 
 ##  Requirements
