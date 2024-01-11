@@ -15,7 +15,7 @@ By: Sylvain Kalache
    <li><a href="https://computer.howstuffworks.com/internet/basics/what-is-an-ip-address.htm">What is an IP address</a></li>
    <li><a href="https://www.avast.com/c-what-is-tcp-ip#">What is TCP/IP<a/></li>
    <li><a href="https://www.lifewire.com/port-numbers-on-computer-networks-817939">What is an Internet Protocol (IP) port?</a></li>
-##   Web stack debugging
+## Web stack debugging
    <li><a href="https://www.youtube.com/watch?v=1_gqlbADaAw&feature=youtu.be">Youtube video First 5 Commands When I Connect on a Linux Server</a></li>
    <li><a href="https://www.linux.com/training-tutorials/first-5-commands-when-i-connect-linux-server/"> 5 commands</a></li>
    <li><a href="https://www.techtarget.com/whatis/definition/uptime-and-downtime">uptime</a></li>
@@ -24,7 +24,7 @@ By: Sylvain Kalache
    <li><a href="https://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html">(and here)</a></li>
 
 
-##  Requirements
+## Requirements
 ### General
      Allowed editors: vi, vim, emacs
      All your files will be interpreted on Ubuntu 20.04 LTS
@@ -38,8 +38,8 @@ By: Sylvain Kalache
      You are not allowed to use wget
    
 # Tasks
-##   0. Nginx likes port 80
-###  mandatory
+## 0. Nginx likes port 80
+### mandatory
      Using your debugging skills, find out what’s keeping your Ubuntu container’s Nginx installation from listening on port 80. Feel free to install whatever tool you need, start and destroy as many containers as you need to debug the issue. Then, write a Bash script with the minimum number of commands to automate your fix.
 
      Requirements:
