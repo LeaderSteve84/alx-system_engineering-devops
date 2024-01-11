@@ -76,7 +76,7 @@ GitHub repository: alx-system_engineering-devops
 Directory: 0x0E-web_stack_debugging_1
 File: 0-nginx_likes_port_80
    
-##1. Make it sweet and short
+## 1. Make it sweet and short
 ### advanced
 
 Using what you did for task #0, make your fix short and sweet.
