@@ -6,12 +6,22 @@ By: Sylvain Kalache
    Project will start Jan 8, 2024 6:00 AM, must end by Jan 12, 2024 6:00 AM
     Checker was released at Jan 10, 2024 8:24 PM
      An auto review will be launched at the deadline
-     Concepts
-     For this project, we expect you to look at these concepts:
 
-##   Network basics:
-     <li><a href="https://www.techtarget.com/searchnetworking/definition/protocol">what is a protocol</a></li>
+## Concepts
+   For this project, we expect you to look at these concepts:
+
+   Network basics:
+   <li><a href="https://www.techtarget.com/searchnetworking/definition/protocol">what is a protocol</a></li>
+   <li><a href="https://computer.howstuffworks.com/internet/basics/what-is-an-ip-address.htm">What is an IP address</a></li>
+   <li><a href="https://www.avast.com/c-what-is-tcp-ip#">What is TCP/IP<a/></li>
+   <li><a href="https://www.lifewire.com/port-numbers-on-computer-networks-817939">What is an Internet Protocol (IP) port?</a></li>
 ##   Web stack debugging
+   <li><a href="https://www.youtube.com/watch?v=1_gqlbADaAw&feature=youtu.be">Youtube video First 5 Commands When I Connect on a Linux Server</a></li>
+   <li><a href="https://www.linux.com/training-tutorials/first-5-commands-when-i-connect-linux-server/"> 5 commands</a></li>
+   <li><a href="https://www.techtarget.com/whatis/definition/uptime-and-downtime">uptime</a></li>
+   read more about load
+   <li><a href="https://scoutapm.com/blog/understanding-load-averages">(here)</a></li>
+   <li><a href="https://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html">(and here)</a></li>
 
 
 ##  Requirements
