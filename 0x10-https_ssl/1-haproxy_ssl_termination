@@ -34,7 +34,7 @@ defaults
         errorfile 504 /etc/haproxy/errors/504.http
 
 frontend www_frontend
-        bind :443 ssl crt /etc/letsencrypt/live/www.happinesshome.tech-0001/fullchain.pem
+        bind :443 ssl crt etc/haproxy/certs/newfullchain.pem
         reqadd X-Forwarded-Proto:\ https
         default_backend www_backend
 
