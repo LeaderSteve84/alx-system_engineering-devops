@@ -94,11 +94,11 @@ Example:
 
 ubuntu@229-web-01:~\$ mysql -uholberton_user -p -e "SHOW GRANTS FOR 'holberton_user'@'localhost'"
 Enter password:
-\+-----------------------------------------------------------------\+
++-----------------------------------------------------------------+
 | Grants for holberton_user@localhost                             |
-\+-----------------------------------------------------------------\+
++-----------------------------------------------------------------+
 | GRANT REPLICATION CLIENT ON *.* TO 'holberton_user'@'localhost' |
-\+-----------------------------------------------------------------\+
++-----------------------------------------------------------------+
 ubuntu@229-web-01:~\$
 ##### Repo:
 
@@ -120,7 +120,7 @@ Enter password:
 |  1 | Leon  |
 +----+-------+
 ubuntu@229-web-01:~$
-Repo:
+###### Repo:
 
 GitHub repository: alx-system_engineering-devops
 Directory: 0x14-mysql
