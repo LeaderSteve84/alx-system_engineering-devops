@@ -28,32 +28,33 @@ Read or watch:
 <li><a href="https://www.databasejournal.com/ms-sql/developing-a-sql-server-backup-strategy/">Build a robust database backup strategy</a></li>
 man or help:
 
-mysqldump
-Learning Objectives
+<li>mysqldump</li>
+
+###### Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
+#### General
+<li>What is the main role of a database</li>
+<li>What is a database replica</li>
+<li>What is the purpose of a database replica</li>
+<li>Why database backups need to be stored in different physical locations</li>
+<li>What operation should you regularly perform to make sure that your database backup strategy actually works</li>
+<li>Copyright - Plagiarism</li>
+<li>You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.</li>
+<li>You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.</li>
+<li>You are not allowed to publish any content of this project.</li>
+<li>Any form of plagiarism is strictly forbidden and will result in removal from the program.</li>
+### Requirements
 General
-What is the main role of a database
-What is a database replica
-What is the purpose of a database replica
-Why database backups need to be stored in different physical locations
-What operation should you regularly perform to make sure that your database backup strategy actually works
-Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your files will be interpreted on Ubuntu 16.04 LTS
-All your files should end with a new line
-A README.md file, at the root of the folder of the project, is mandatory
-All your Bash script files must be executable
-Your Bash script must pass Shellcheck (version 0.3.7-5~ubuntu16.04.1 via apt-get) without any error
-The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
-The second line of all your Bash scripts should be a comment explaining what is the script doing
-Your servers
+<li>Allowed editors: vi, vim, emacs</li>
+<li>All your files will be interpreted on Ubuntu 16.04 LTS</li>
+<li>All your files should end with a new line</li>
+<li>A README.md file, at the root of the folder of the project, is mandatory</li>
+<li>All your Bash script files must be executable</li>
+<li>Your Bash script must pass Shellcheck (version 0.3.7-5~ubuntu16.04.1 via apt-get) without any error</li>
+<li>The first line of all your Bash scripts should be exactly #!/usr/bin/env bash</li>
+<li>The second line of all your Bash scripts should be a comment explaining what is the script doing</li>
+<li>Your servers</li>
 Name	Username	IP	State	
 430728-web-01	ubuntu	54.167.187.121	running	
 430728-web-02	ubuntu	100.25.3.235	running	
