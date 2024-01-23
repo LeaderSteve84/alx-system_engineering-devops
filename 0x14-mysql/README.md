@@ -5,20 +5,27 @@
  Project will start Jan 23, 2024 6:00 AM, must end by Jan 24, 2024 6:00 AM
  Checker was released at Jan 23, 2024 12:00 PM
  An auto review will be launched at the deadline
-Concepts
+
+###Concepts
 For this project, we expect you to look at these concepts:
 
 Database administration
+<li><a href="https://www.techtarget.com/searchdatamanagement/definition/database">What is a database</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-choose-a-redundancy-plan-to-ensure-high-availability#sql-replication">What is a database primary/replicate cluster</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-replication-in-mysql">MySQL primary/replicate setup</a></li>
+<li><a href="https://www.databasejournal.com/ms-sql/developing-a-sql-server-backup-strategy/"></a>Build a robust database backup strategy</li>
 Web stack debugging
+<li><a href=""></a></li>
+
 [How to] Install mysql 5.7
 
 
 ## Resources
 Read or watch:
 
-What is a primary-replica cluster
-MySQL primary replica setup
-Build a robust database backup strategy
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-choose-a-redundancy-plan-to-ensure-high-availability#sql-replication">What is a primary-replica cluster</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-replication-in-mysql">MySQL primary replica setup</a></li>
+<li><a href="https://www.databasejournal.com/ms-sql/developing-a-sql-server-backup-strategy/">Build a robust database backup strategy</a></li>
 man or help:
 
 mysqldump
@@ -63,9 +70,11 @@ Make sure that task #3 of your SSH project is completed for web-01 and web-02. T
 Please make sure you have your README.md pushed to GitHub.
 Example:
 
-ubuntu@229-web-01:~$ mysql --version
+ubuntu@229-web-01:~\$ mysql --version
+
 mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
-ubuntu@229-web-01:~$
+
+ubuntu@229-web-01:~\$
 ##### Repo:
 
 GitHub repository: alx-system_engineering-devops
