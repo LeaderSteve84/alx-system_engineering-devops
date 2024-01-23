@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Bash script that accepts one user name and run whoami
+
+if [ -n "$1" ]
+then
+        sudo -u "$1" whoami
+else
+        echo "please provide a username as an argument."
+fi
