@@ -44,7 +44,9 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 <li>You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.</li>
 <li>You are not allowed to publish any content of this project.</li>
 <li>Any form of plagiarism is strictly forbidden and will result in removal from the program.</li>
+
 ### Requirements
+
 General
 <li>Allowed editors: vi, vim, emacs</li>
 <li>All your files will be interpreted on Ubuntu 16.04 LTS</li>
@@ -90,14 +92,14 @@ Make sure that holberton_user has permission to check the primary/replica status
 In addition to that, make sure that task #3 of your SSH project is completed for web-01 and web-02. You will likely need to add the public key to web-02 as you only added it to web-01 for this project. The checker will connect to your servers to check MySQL status
 Example:
 
-ubuntu@229-web-01:~$ mysql -uholberton_user -p -e "SHOW GRANTS FOR 'holberton_user'@'localhost'"
+ubuntu@229-web-01:~\$ mysql -uholberton_user -p -e "SHOW GRANTS FOR 'holberton_user'@'localhost'"
 Enter password:
-+-----------------------------------------------------------------+
+\+-----------------------------------------------------------------\+
 | Grants for holberton_user@localhost                             |
-+-----------------------------------------------------------------+
+\+-----------------------------------------------------------------\+
 | GRANT REPLICATION CLIENT ON *.* TO 'holberton_user'@'localhost' |
-+-----------------------------------------------------------------+
-ubuntu@229-web-01:~$
+\+-----------------------------------------------------------------\+
+ubuntu@229-web-01:~\$
 ##### Repo:
 
 GitHub repository: alx-system_engineering-devops
