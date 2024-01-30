@@ -21,10 +21,10 @@ Read or watch:
 
 <li><a href="https://www.turnkeylinux.org/blog/friends-dont-let-friends-program-shell-script">Friends don’t let friends program in shell script</a></li>
 <li><a href="https://www.webopedia.com/definitions/api/">What is an API</a></li>
-<li><a href="https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/">What is an API? In English, pleas</a></li>e
+<li><a href="https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/">What is an API? In English, please</a></li>
 <li><a href="https://www.sitepoint.com/rest-api/">What is a REST API</a></li>
-<li><a href="">What are microservices</a></li>
-PEP8 Python style - having a clean code respecting style guide is really appreciated in the industry</a></li>
+<li><a href="https://smartbear.com/learn/api-design/microservices/">What are microservices</a></li>
+<li><a href="https://peps.python.org/pep-0008/">PEP8 Python style - having a clean code respecting style guide is really appreciated in the industry</a></li>
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
