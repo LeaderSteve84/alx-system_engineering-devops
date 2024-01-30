@@ -1,12 +1,11 @@
 #!/usr/bin/python3
-"""
-gather employee data from API
-"""
+"""gather employee data from API"""
 import requests
 import sys
 
 
 def fetch_employee_todo_progress(employee_id):
+    """fetch the employee todo progress"""
     base_url = "https://jsonplaceholder.typicode.com/users"
     todo_url = f"{base_url}/{employee_id}/todos"
     try:
