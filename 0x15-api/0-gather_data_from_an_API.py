@@ -19,7 +19,8 @@ if __name__ == "__main__":
             response = requests.get('{}/users/{}'.format(URL, id)).json()
             task_response = requests.get('{}/todos'.format(URL)).json()
             name_employee = response.get('name')
-            tasks = list(filter(lambda x: x.get('userId') == id, task_response))
+            tasks = list(
+                filter(lambda x: x.get('userId') == id, task_response))
             completed_tasks = list(filter(lambda x: x.get('completed'), tasks))
             print(
                 'Employee {} is done with tasks({}/{}):'.format(
