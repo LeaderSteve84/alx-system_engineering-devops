@@ -24,11 +24,11 @@ if __name__ == "__main__":
         dict_data = {user_id: []}
         for task in tasks:
             COMPLETED_TASK_STATUS = task.get('completed')
-            TASK_TITLE =  task.get('title')
+            TASK_TITLE = task.get('title')
             dict_data[user_id].append({
                 "task": TASK_TITLE,
                 "completed": COMPLETED_TASK_STATUS,
                 "username": user_name})
 
-        with open('{}.csv'.format(user_id), 'w') as f:
+        with open('{}.json'.format(user_id), 'w') as f:
             json.dump(dict_data, f)
