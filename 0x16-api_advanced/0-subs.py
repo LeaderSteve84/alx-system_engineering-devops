@@ -18,7 +18,7 @@ def number_of_subscribers(subreddit):
         'AppleWebKit/537.36'
         '(KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers, allow_redirects=False)
     if response.status_code == 200:
         data = response.json()
         return data['data']['subscribers']
