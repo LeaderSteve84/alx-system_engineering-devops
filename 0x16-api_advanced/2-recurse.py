@@ -4,6 +4,7 @@ queries the Reddit API
 """
 import requests
 
+
 def recurse(subreddit, hot_list=[]):
     if hot_list is None:
         hot_list = []
