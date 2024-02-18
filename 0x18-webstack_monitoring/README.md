@@ -87,8 +87,10 @@ The second line of all your Bash scripts should be a comment explaining what is 
 <article>
 <h1>Tasks</h1>
 <p>
-0. Sign up for Datadog and install datadog-agent
-mandatory
+<h4>0. Sign up for Datadog and install datadog-agent</h4>
+<h5>mandatory</h5>
+</p>
+<p>
 For this task head to https://www.datadoghq.com/ and sign up for a free Datadog account. When signing up, you’ll have the option of selecting statistics from your current stack that Datadog can monitor for you. Once you have an account set up, follow the instructions given on the website to install the Datadog agent.
 </p>
 <p>
