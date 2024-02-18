@@ -53,7 +53,7 @@ The second line of all your Bash scripts should be a comment explaining what is 
 </p>
 <br />
 <h4>Your servers</h4>
-<table>
+<table cellspacing=4>
   <thead>
    <tr>
    <th>Name</th>
