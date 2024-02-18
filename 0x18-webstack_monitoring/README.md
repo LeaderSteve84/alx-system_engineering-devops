@@ -3,28 +3,32 @@
  <h1>0x18. Webstack monitoring</h1>
  <h3>DevOps SysAdmin monitoring</h3>
 </hgroup>
-<div>
-Background Context
-<br />
-<p>“You cannot fix or improve what you cannot measure” is a famous saying in the Tech industry. In the age of the data-ism, monitoring how our Software systems are doing is an important thing. In this project, we will implement one of many tools to measure what is going on our servers.
-<br />
+<h3>Background Context</h3>
+
+<p>
+“You cannot fix or improve what you cannot measure” is a famous saying in the Tech industry. In the age of the data-ism, monitoring how our Software systems are doing is an important thing. In this project, we will implement one of many tools to measure what is going on our servers.
+</p>
+<p>
 Web stack monitoring can be broken down into 2 categories:
-<br />
+</p>
+<p>
 Application monitoring: getting data about your running software and making sure it is behaving as expected
 Server monitoring: getting data about your virtual or physical server and making sure they are not overloaded (could be CPU, memory, disk or network overload)
-<br />
+</p>
+<p>
 Resources
 Read or watch:
-<br />
+</p>
+<p>
 What is server monitoring
 What is application monitoring
 System monitoring by Google
 Nginx logging and monitoring
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-<br />
-#### General
-<br />
+</p>
+<h3>General</h3>
+<p>
 Why is monitoring needed
 What are the 2 main area of monitoring
 What are access logs for a web server (such as Nginx)
@@ -34,9 +38,10 @@ You are tasked to come up with solutions for the tasks below yourself to meet wi
 You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
 You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
-<br />
-#### Requirements
-General
+</p>
+<h3>Requirements</h3>
+<h4>General</h4>
+<p>
 Allowed editors: vi, vim, emacs
 All your files will be interpreted on Ubuntu 16.04 LTS
 All your files should end with a new line
@@ -59,36 +64,34 @@ The second line of all your Bash scripts should be a comment explaining what is 
   </thead>
   <tbody>
    <tr>
-   <td>430728-web-01</td>
-   <td>ubuntu</td>
-   <td>54.167.187.121</td>
+   <td>430xxx-web-01</td>
+   <td>xxxxxx</td>
+   <td>54.167.187.xxx</td>
    <td>running</td>
    </tr>
    <tr>
-   <td>430728-web-02</td>	
-   <td>ubuntu</td>
-   <td>100.25.3.235</td>	
+   <td>430xxx-web-02</td>	
+   <td>xxxxxx</td>
+   <td>100.25.3.xxx</td>	
    <td>running</td>	
    </tr>
    <tr>
-   <td>430728-lb-01</td>	
-   <td>ubuntu</td>	
-   <td>34.239.254.156</td>
+   <td>430xxx-lb-01</td>	
+   <td>xxxxxx</td>	
+   <td>34.239.254.xxx</td>
    <td>running</td>	
    </tr>
   </tbody>
 </table>
-</div>
 </article>
-
-Tasks
+<article>
+<h1>Tasks</h1>
+<p>
 0. Sign up for Datadog and install datadog-agent
 mandatory
-Score: 0.00% (Checks completed: 0.00%)
 For this task head to https://www.datadoghq.com/ and sign up for a free Datadog account. When signing up, you’ll have the option of selecting statistics from your current stack that Datadog can monitor for you. Once you have an account set up, follow the instructions given on the website to install the Datadog agent.
-
-
-
+</p>
+<p>
 Sign up for Datadog - Please make sure you are using the US website of Datagog (https://app.datadoghq.com)
 Use the US1 region
 Install datadog-agent on web-01
@@ -97,25 +100,29 @@ Copy-paste in your Intranet user profile (here) your DataDog API key and your Da
 Your server web-01 should be visible in Datadog under the host name XX-web-01
 You can validate it by using this API
 If needed, you will need to update the hostname of your server
-Repo:
+</p>
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x18-webstack_monitoring
+<h4>Repo:</h4>
+
+<li>GitHub repository: alx-system_engineering-devops</li>
+<li>Directory: 0x18-webstack_monitoring</li>
      
+<p>
 1. Monitor some metrics
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Among the litany of data your monitoring service can report to you are system metrics. You can use these metrics to determine statistics such as reads/writes per second, which can help your company determine if/how they should scale. Set up some monitors within the Datadog dashboard to monitor and alert you of a few. You can read about the various system metrics that you can monitor here: System Check.
-
-
-
+</p>
+<p>
 Set up a monitor that checks the number of read requests issued to the device per second.
 Set up a monitor that checks the number of write requests issued to the device per second.
-Repo:
+</p>
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x18-webstack_monitoring
-     
+<h4>Repo:</h4>
+<p>
+<li>GitHub repository: alx-system_engineering-devops</li>
+<li>Directory: 0x18-webstack_monitoring</li>
+</p> 
+
 2. Create a dashboard
 mandatory
 Score: 0.0% (Checks completed: 0.0%)
