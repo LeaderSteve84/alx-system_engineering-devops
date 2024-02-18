@@ -108,8 +108,9 @@ If needed, you will need to update the hostname of your server
 <li>Directory: 0x18-webstack_monitoring</li>
      
 <p>
-1. Monitor some metrics
-mandatory
+
+<h4>1. Monitor some metrics</h4>
+<h5>mandatory</h5>
 Among the litany of data your monitoring service can report to you are system metrics. You can use these metrics to determine statistics such as reads/writes per second, which can help your company determine if/how they should scale. Set up some monitors within the Datadog dashboard to monitor and alert you of a few. You can read about the various system metrics that you can monitor here: System Check.
 </p>
 <p>
@@ -123,16 +124,19 @@ Set up a monitor that checks the number of write requests issued to the device p
 <li>Directory: 0x18-webstack_monitoring</li>
 </p> 
 
-2. Create a dashboard
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
+<h4>2. Create a dashboard</h4>
+<h5>mandatory</h5>
+<p>
 Now create a dashboard with different metrics displayed in order to get a few different visualizations.
-
+</p>
+<p>
 Create a new dashboard
 Add at least 4 widgets to your dashboard. They can be of any type and monitor whatever you’d like
 Create the answer file 2-setup_datadog which has the dashboard_id on the first line. Note: in order to get the id of your dashboard, you may need to use Datadog’s API
-Repo:
-
-GitHub repository: alx-system_engineering-devops
-Directory: 0x18-webstack_monitoring
-File: 2-setup_datadog
+</p>
+<h5>Repo:</h5>
+<p>
+<li>GitHub repository: alx-system_engineering-devops</li>
+<li>Directory: 0x18-webstack_monitoring</li>
+<li>File: 2-setup_datadog</li>
+</p>
