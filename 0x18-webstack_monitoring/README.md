@@ -1,25 +1,30 @@
-# 0x18. Webstack monitoring
-### DevOps SysAdmin monitoring
-
-### Background Context
-“You cannot fix or improve what you cannot measure” is a famous saying in the Tech industry. In the age of the data-ism, monitoring how our Software systems are doing is an important thing. In this project, we will implement one of many tools to measure what is going on our servers.
-
+<article>
+<hgroup>
+ <h1>0x18. Webstack monitoring</h1>
+ <h3>DevOps SysAdmin monitoring</h3>
+</hgroup>
+<div>
+Background Context
+<br />
+<p>“You cannot fix or improve what you cannot measure” is a famous saying in the Tech industry. In the age of the data-ism, monitoring how our Software systems are doing is an important thing. In this project, we will implement one of many tools to measure what is going on our servers.
+<br />
 Web stack monitoring can be broken down into 2 categories:
-
+<br />
 Application monitoring: getting data about your running software and making sure it is behaving as expected
 Server monitoring: getting data about your virtual or physical server and making sure they are not overloaded (could be CPU, memory, disk or network overload)
-
+<br />
 Resources
 Read or watch:
-
+<br />
 What is server monitoring
 What is application monitoring
 System monitoring by Google
 Nginx logging and monitoring
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-General
+<br />
+#### General
+<br />
 Why is monitoring needed
 What are the 2 main area of monitoring
 What are access logs for a web server (such as Nginx)
@@ -29,7 +34,8 @@ You are tasked to come up with solutions for the tasks below yourself to meet wi
 You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
 You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
-Requirements
+<br />
+#### Requirements
 General
 Allowed editors: vi, vim, emacs
 All your files will be interpreted on Ubuntu 16.04 LTS
@@ -39,11 +45,42 @@ All your Bash script files must be executable
 Your Bash script must pass Shellcheck (version 0.3.7) without any error
 The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 The second line of all your Bash scripts should be a comment explaining what is the script doing
-Your servers
-Name	Username	IP	State	
-430728-web-01	ubuntu	54.167.187.121	running	
-430728-web-02	ubuntu	100.25.3.235	running	
-430728-lb-01	ubuntu	34.239.254.156	running	
+</p>
+<br />
+<h4>Your servers</h4>
+<table>
+  <thead>
+   <tr>
+   <th>Name</th>
+   <th>Username</th>
+   <th>IP</th>
+   <th>State</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+   <td>430728-web-01</td>
+   <td>ubuntu</td>
+   <td>54.167.187.121</td>
+   <td>running</td>
+   </tr>
+   <tr>
+   <td>430728-web-02</td>	
+   <td>ubuntu</td>
+   <td>100.25.3.235</td>	
+   <td>running</td>	
+   </tr>
+   <tr>
+   <td>430728-lb-01</td>	
+   <td>ubuntu</td>	
+   <td>34.239.254.156</td>
+   <td>running</td>	
+   </tr>
+  </tbody>
+</table>
+</div>
+</article>
+
 Tasks
 0. Sign up for Datadog and install datadog-agent
 mandatory
