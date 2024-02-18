@@ -20,36 +20,38 @@ Resources
 Read or watch:
 </p>
 <p>
-What is server monitoring
-What is application monitoring
-System monitoring by Google
-Nginx logging and monitoring
-Learning Objectives
+<ul>
+<li><a href="">What is server monitoring</a></li>
+<li><a href="">What is application monitoring</a></li>
+<li><a href="">System monitoring by Google</a></li>
+<li><a href="">Nginx logging and monitoring</a></li>
+</ul>
+<h2>Learning Objectives</h2>
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 </p>
 <h3>General</h3>
 <p>
-Why is monitoring needed
-What are the 2 main area of monitoring
-What are access logs for a web server (such as Nginx)
-What are error logs for a web server (such as Nginx)
-Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
+<li>Why is monitoring needed</li>
+<li>What are the 2 main area of monitoring</li>
+<li>What are access logs for a web server (such as Nginx)</li>
+<li>What are error logs for a web server (such as Nginx)</li>
+<li>Copyright - Plagiarism</li>
+<li>You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.</li>
+<li>You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.</li>
+<li>You are not allowed to publish any content of this project.</li>
+<li>Any form of plagiarism is strictly forbidden and will result in removal from the program.</li>
 </p>
 <h3>Requirements</h3>
 <h4>General</h4>
 <p>
-Allowed editors: vi, vim, emacs
-All your files will be interpreted on Ubuntu 16.04 LTS
-All your files should end with a new line
-A README.md file, at the root of the folder of the project, is mandatory
-All your Bash script files must be executable
-Your Bash script must pass Shellcheck (version 0.3.7) without any error
-The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
-The second line of all your Bash scripts should be a comment explaining what is the script doing
+<li>Allowed editors: vi, vim, emacs</li>
+<li>All your files will be interpreted on Ubuntu 16.04 LTS</li>
+<li>All your files should end with a new line</li>
+<li>A README.md file, at the root of the folder of the project, is mandatory</li>
+<li>All your Bash script files must be executable</li>
+<li>Your Bash script must pass Shellcheck (version 0.3.7) without any error</li>
+<li>The first line of all your Bash scripts should be exactly #!/usr/bin/env bash</li>
+<li>The second line of all your Bash scripts should be a comment explaining what is the script doing</li>
 </p>
 <br />
 <h4>Your servers</h4>
@@ -94,14 +96,18 @@ The second line of all your Bash scripts should be a comment explaining what is 
 For this task head to https://www.datadoghq.com/ and sign up for a free Datadog account. When signing up, you’ll have the option of selecting statistics from your current stack that Datadog can monitor for you. Once you have an account set up, follow the instructions given on the website to install the Datadog agent.
 </p>
 <p>
-Sign up for Datadog - Please make sure you are using the US website of Datagog (https://app.datadoghq.com)
-Use the US1 region
-Install datadog-agent on web-01
-Create an application key
-Copy-paste in your Intranet user profile (here) your DataDog API key and your DataDog application key.
-Your server web-01 should be visible in Datadog under the host name XX-web-01
-You can validate it by using this API
-If needed, you will need to update the hostname of your server
+<ul>
+<li>Sign up for Datadog - Please make sure you are using the US website of Datagog (https://app.datadoghq.com)</li>
+<li>Use the US1 region</li>
+<li>Install datadog-agent on web-01</li>
+<li>Create an application key</li>
+<li>Copy-paste in your Intranet user profile (here) your DataDog API key and your DataDog application key.</li>
+<li>Your server web-01 should be visible in Datadog under the host name XX-web-01</li>
+ <ul>
+ <li>You can validate it by using this API</li>
+ <li>If needed, you will need to update the hostname of your server</li>
+ </ul>
+</ul>
 </p>
 
 <h4>Repo:</h4>
