@@ -4,7 +4,7 @@
 # ports 22, 80 and 443.
 
 sudo apt install ufw
-sudo ufw default incoming
+sudo ufw deny incoming
 sudo ufw default allow outgoing
 sudo ufw allow 22/tcp
 sudo ufw allow 80/tcp
