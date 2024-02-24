@@ -1,20 +1,4 @@
 #!/usr/bin/env bash
 # to reload Gunicorn in a graceful way.
 
-# Define the path to the gunicorn service file
-SERVICE_FILE="/etc/systemd/system/gunicorn.service"
-
-# Check if service file exit
-if [ ! -f "$SERVICE_FILE" ]; then
-   echo "Error: Gunicorn service file not found: $SERVICE_FILE"
-   exit 1
-fi
-
-# Reload the systemd daemon to ensure it read the latest configuration
-sudo systemctl daemon-reload
-
-# Restart gunicorn service with a graceful reload
-sudo systemctl restart gunicorn 
-
-# check the status of the Gunicorn after reload
-sudo systemctl status gunicorn
+grep gunicorn | xargs kill -HUP
