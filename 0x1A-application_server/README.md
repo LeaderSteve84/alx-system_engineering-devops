@@ -101,7 +101,8 @@ Requirements:
 <br />
 Example:
 <br /><br />
-Window 1:
+<div>
+<h5>Window 1:</h5>
 ubuntu@229-web-01:~/AirBnB_clone_v2$ python3 -m web_flask.0-hello_route</br />
  * Serving Flask app "0-hello_route" (lazy loading)<br />
  * Environment: production<br />
@@ -110,9 +111,12 @@ ubuntu@229-web-01:~/AirBnB_clone_v2$ python3 -m web_flask.0-hello_route</br />
  * Debug mode: off<br />
  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)<br />
 35.231.193.217 - - [02/May/2019 22:19:42] "GET /airbnb-onepage/ HTTP/1.1" 200 -<br />
-Window 2:<br />
+</div>
+<div>
+<h5>Window 2:</h5>
 ubuntu@229-web-01:~/AirBnB_clone_v2$ curl 127.0.0.1:5000/airbnb-onepage/<br />
-Hello HBNB!ubuntu@229-web-01:~/AirBnB_clone_v2$<br />
+Hello HBNB!ubuntu@229-web-01:~/AirBnB_clone_v2$
+</div>
 Repo:
 </p>
 <p>
