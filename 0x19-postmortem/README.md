@@ -1,3 +1,44 @@
+# 0x19. Postmortem
+### DevOps SysAdmin
+ <p>By: Sylvain Kalache<br />
+ Weight: 1<br />
+ Project over - took place from Feb 12, 2024 6:00 AM to Feb 19, 2024 6:00 AM<br />
+ Manual QA review was done by Hauwa Abdulkadir on Feb 18, 2024 1:41 PM<br />
+</P>
+<article>
+<h2>Concepts</h2>
+<p>For this project, we expect you to look at this concept:
+<br /><br />
+<li>On-call</li>
+</article>
+<article>
+<h3>Background Context</h3>
+
+<p>
+Any software system will eventually fail, and that failure can come stem from a wide range of possible factors: bugs, traffic spikes, security issues, hardware failures, natural disasters, human error… Failing is normal and failing is actually a great opportunity to learn and improve. Any great Software Engineer must learn from his/her mistakes to make sure that they won’t happen again. Failing is fine, but failing twice because of the same issue is not.
+<br /><br />
+A postmortem is a tool widely used in the tech industry. After any outage, the team(s) in charge of the system will write a summary that has 2 main goals:<br />
+<br /><br />
+<li>To provide the rest of the company’s employees easy access to information detailing the cause of the outage. Often outages can have a huge impact on a company, so managers and executives have to understand what happened and how it will impact their work.</li>
+<li>And to ensure that the root cause(s) of the outage has been discovered and that measures are taken to make sure it will be fixed.</li>
+</p>
+</article>
+<article>
+<h2>Resources</h2>
+<p>Read or watch:
+<ul>
+<li><a href="https://sysadmincasts.com/episodes/20-how-to-write-an-incident-report-postmortem">Incident Report, also referred to as a Postmortem</a></li>
+<li><a href="https://www.atlassian.com/incident-management/postmortem">The importance of an incident postmortem process</a></li>
+<li><a href="https://www.pagerduty.com/resources/learn/incident-postmortem/">What is an Incident Postmortem?</a></li>
+</p>
+<article>
+<h4>More Info</h4>
+<p>
+Manual QA Review<br />
+It is your responsibility to request a review for your postmortem from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.
+</p>
+</article>
+</article>
 <article>
 <hgroup>
 <h1> Tasks </h1>
