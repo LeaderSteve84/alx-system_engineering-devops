@@ -10,8 +10,11 @@ if [ ! -f "$SERVICE_FILE" ]; then
    exit 1
 fi
 
+# Reload the systemd daemon to ensure it read the latest configuration
+sudo systemctl daemon-reload
+
 # Restart gunicorn service with a graceful reload
-sudo systemctl reload gunicorn
+sudo systemctl restart gunicorn 
 
 # check the status of the Gunicorn after reload
 sudo systemctl status gunicorn
