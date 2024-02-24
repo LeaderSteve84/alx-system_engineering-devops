@@ -1,27 +1,29 @@
-<article>
-# 0x1A. Application server
-### DevOps SysAdmin
-<section>
+</article>
+<h1>0x1A. Application server</h1>
+<h3>DevOps SysAdmin</h3>
+<p>
  By: Sylvain Kalache, co-founder at Holberton School
  Weight: 1
  Project will start Feb 19, 2024 6:00 AM, must end by Feb 23, 2024 6:00 AM
  Checker was released at Feb 21, 2024 8:24 PM
  An auto review will be launched at the deadline
- </section>
-<section>
+ </p>
+ </article>>
+<article>
  <h4>Concepts</h4>
 For this project, we expect you to look at these concepts:
 
 Web Server
 Server
 Web stack debugging
-</section>
-
+</article>
+<p>
 Background Context
-
-
+</p>
+<p>
 Your web infrastructure is already serving web pages via Nginx that you installed in your first web stack project. While a web server can also serve dynamic content, this task is usually given to an application server. In this project you will add this piece to your infrastructure, plug it to your Nginx and make is serve your Airbnb clone project.
-<section>
+</p>
+<article>
 Resources
 Read or watch:
 
@@ -30,9 +32,9 @@ How to Serve a Flask Application with Gunicorn and Nginx on Ubuntu 16.04 (As men
 Running Gunicorn
 Be careful with the way Flask manages slash in route - strict_slashes
 Upstart documentation
-</section>
-<section>
-<h3>Requirements</h4>
+</article>
+<article>>
+<h3>Requirements</h3>
 <h4>General</h4>
 A README.md file, at the root of the folder of the project, is mandatory
 Everything Python-related must be done using python3
@@ -44,7 +46,7 @@ All your Bash script files must be executable
 Your Bash script must pass Shellcheck (version 0.3.7-5~ubuntu16.04.1 via apt-get) without any error
 The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 The second line of all your Bash scripts should be a comment explaining what is the script doing
-</section>
+</article>
 <section>
 <h4>Your servers</h4>
 Name	Username	IP	State	
@@ -278,4 +280,3 @@ GitHub repository: alx-system_engineering-devops
 Directory: 0x1A-application_server
 File: 5-app_server-nginx_config
 </section>
-</article>
