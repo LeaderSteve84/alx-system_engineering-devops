@@ -80,22 +80,27 @@ Read or watch:
  </tbody>
 </table>
 </article>
-<section>
+<div>
 <h2>Tasks</h2>
 
 <h4>0. Set up development with Python</h4>
-mandatory
+<p>mandatory<br />
 Let’s serve what you built for AirBnB clone v2 - Web framework on web-01. This task is an exercise in setting up your development environment, which is used for testing and debugging your code before deploying it to production.
-
+<br />
+<br />
 Requirements:
-
-Make sure that task #3 of your SSH project is completed for web-01. The checker will connect to your servers.
-Install the net-tools package on your server: sudo apt install -y net-tools
-Git clone your AirBnB_clone_v2 on your web-01 server.
-Configure the file web_flask/0-hello_route.py to serve its content from the route /airbnb-onepage/ on port 5000.
-Your Flask application object must be named app (This will allow us to run and check your code).
+<br />
+<br />
+<ul>
+<li>Make sure that task #3 of your SSH project is completed for web-01. The checker will connect to your servers.</li>
+<li>Install the net-tools package on your server: sudo apt install -y net-tools</li>
+<li>Git clone your AirBnB_clone_v2 on your web-01 server.</li>
+<li>Configure the file web_flask/0-hello_route.py to serve its content from the route /airbnb-onepage/ on port 5000.</li>
+<li>Your Flask application object must be named app (This will allow us to run and check your code).</li>
+</ul>
+<br />
 Example:
-
+<br /><br />
 Window 1:
 ubuntu@229-web-01:~/AirBnB_clone_v2$ python3 -m web_flask.0-hello_route
  * Serving Flask app "0-hello_route" (lazy loading)
@@ -105,14 +110,18 @@ ubuntu@229-web-01:~/AirBnB_clone_v2$ python3 -m web_flask.0-hello_route
  * Debug mode: off
  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 35.231.193.217 - - [02/May/2019 22:19:42] "GET /airbnb-onepage/ HTTP/1.1" 200 -
-Window 2:
-ubuntu@229-web-01:~/AirBnB_clone_v2$ curl 127.0.0.1:5000/airbnb-onepage/
-Hello HBNB!ubuntu@229-web-01:~/AirBnB_clone_v2$
+Window 2:<br />
+ubuntu@229-web-01:~/AirBnB_clone_v2$ curl 127.0.0.1:5000/airbnb-onepage/<br />
+Hello HBNB!ubuntu@229-web-01:~/AirBnB_clone_v2$<br />
 Repo:
-
-GitHub repository: alx-system_engineering-devops
-Directory: 0x1A-application_server
-File: README.md
+</p>
+<p>
+<ul>
+<li>GitHub repository: alx-system_engineering-devops</li>
+<li>Directory: 0x1A-application_server</li>
+<li>File: README.md</li>
+</ul>
+</p>
 </section>
 <section>
 1. Set up production with Gunicorn
