@@ -12,10 +12,11 @@
 <article>
  <h4>Concepts</h4>
 For this project, we expect you to look at these concepts:
-
-Web Server
-Server
-Web stack debugging
+<ul>
+<li>Web Server</li>
+<li>Server</li>
+<li>Web stack debugging</li>
+</ul>
 </article>
 <p>
 Background Context
@@ -24,28 +25,35 @@ Background Context
 Your web infrastructure is already serving web pages via Nginx that you installed in your first web stack project. While a web server can also serve dynamic content, this task is usually given to an application server. In this project you will add this piece to your infrastructure, plug it to your Nginx and make is serve your Airbnb clone project.
 </p>
 <article>
-Resources
+<h4>Resources</h4>
 Read or watch:
-
-Application server vs web server
-How to Serve a Flask Application with Gunicorn and Nginx on Ubuntu 16.04 (As mentioned in the video, do not install Gunicorn using virtualenv, just install everything globally)
-Running Gunicorn
-Be careful with the way Flask manages slash in route - strict_slashes
-Upstart documentation
+<p>
+<ul>
+<li><a href="https://www.nginx.com/resources/glossary/application-server-vs-web-server/">Application server vs web server</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-16-04">How to Serve a Flask Application with Gunicorn and Nginx on Ubuntu 16.04 (As mentioned in the video, do not install Gunicorn using virtualenv, just install everything globally)</a></li>
+<li><a href="https://docs.gunicorn.org/en/latest/run.html">Running Gunicorn</a></li>
+<li><a href="https://werkzeug.palletsprojects.com/en/3.0.x/en/0.14.x/routing/">Be careful with the way Flask manages slash in route - strict_slashes</a></li>
+<li><a href="https://doc.ubuntu-fr.org/upstart">Upstart documentation</a></li>
+</ul>
+</p>
 </article>
 <article>>
 <h3>Requirements</h3>
 <h4>General</h4>
+<p>
 A README.md file, at the root of the folder of the project, is mandatory
 Everything Python-related must be done using python3
 All config files must have comments
+</p>
 <h4>Bash Scripts</h4>
+<p>
 All your files will be interpreted on Ubuntu 16.04 LTS
 All your files should end with a new line
 All your Bash script files must be executable
 Your Bash script must pass Shellcheck (version 0.3.7-5~ubuntu16.04.1 via apt-get) without any error
 The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 The second line of all your Bash scripts should be a comment explaining what is the script doing
+</p>
 </article>
 <section>
 <h4>Your servers</h4>
